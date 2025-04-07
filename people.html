@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Port Foliage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Logo and Website Name -->
+  <div class="logo-header" style="display: flex; align-items: center; justify-content: space-between; width: 100%; background-color: #5a4026; padding: 10px 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; align-items: center;">
+      <img src="images\sitting.png" alt="Website Logo" style="width: 35px; height: 40px; margin-right: 10px;">
+      <span style="font-size: 1.5rem; font-weight: bold; color: #fff;">Narratron's Blog</span>
+    </div>
+  </div>
+  <!-- Navigation Tab -->
+  <nav class="navigation-bar" style="width: 100%; background-color: #8a6948; padding: 10px 20px;">
+    <ul style="display: flex; list-style: none; margin: 0; padding: 0; justify-content: space-around;">
+      <li><a href="index.html" style="text-decoration: none; color: #fff; font-size: 1rem; transition: color 0.3s;">Main Blog</a></li>
+      <li><a href="sides.html" style="text-decoration: none; color: #fff; font-size: 1rem; transition: color 0.3s;">Side Pieces</a></li>
+      <li><a href="people.html" style="text-decoration: none; color: #fff; font-size: 1rem; transition: color 0.3s;">The World</a></li>
+      <li><a href="gallery.html" style="text-decoration: none; color: #fff; font-size: 1rem; transition: color 0.3s;">Gallery</a></li>
+    </ul>
+  </nav>
+
+
+    <!-- Header Section -->
+    <div class="header-box" style="color: #fff;">
+      <div class="container1">
+          <h1>Here you can meet all of the people we have worked with!</h1>
+          <img src="images\sitting.png" alt="Narratron Picture" class="side-image">
+      </div>
+    </div>
+  <!-- Card Section -->
+  <div class="card-section">
+
+    <!-- Flipping ID Card 1 -->
+    <div class="card-grid">
+      <div class="card-container" onclick="flipCard(this)">
+        <div class="card">
+          <!-- Front Side -->
+          <div class="card-front">
+            <img src="images\felix.png" alt="Profile Picture" class="profile-image">
+            <h2 class="name" style= "color: #ffffff";>Flepperblip</h2>
+            <p class="info" style= "color: #ffffff">The creator of this website</p>
+          </div>
+
+          <!-- Back Side -->
+          <div class="card-back">
+            <h3>Do we think he really feels bad about what he did? To everyone? I don't know, I didn't feel it.</h3>
+            
+          </div> <!-- End of card-back -->
+        </div> <!-- End of card -->
+      </div> <!-- End of card-container -->
+
+      <!-- Flipping ID Card 2 -->
+      <div class="card-container" onclick="flipCard(this)">
+        <div class="card">
+          <div class="card-front">
+            <img src="images\claire.png" alt="Profile Picture" class="profile-image">
+            <h2 class="name" style= "color: #ffffff">Clazmozzle</h2>
+            <p class="info" style= "color: #ffffff">Dearest wife</p>
+          </div>
+          <div class="card-back">
+            <h3>Does anyone love anything like she loves that guy? Seriously.. She accepts too much.</h3>
+          
+          </div> <!-- End of card-back -->
+        </div>
+      </div> <!-- End of card-container -->
+
+      <!-- Flipping ID Card 3 -->
+    <div class="card-grid">
+      <div class="card-container" onclick="flipCard(this)">
+        <div class="card">
+          <!-- Front Side -->
+          <div class="card-front">
+            <img src="images\andrew.png" alt="Profile Picture" class="profile-image">
+            <h2 class="name" style= "color: #ffffff";>Andriskels</h2>
+            <p class="info" style= "color: #ffffff">Business Man</p>
+          </div>
+
+          <!-- Back Side -->
+          <div class="card-back">
+            <h3>Your usual business man. Except this one is single and loves ramen.</h3>
+            
+          </div> <!-- End of card-back -->
+        </div> <!-- End of card -->
+      </div> <!-- End of card-container -->
+
+
+
+      <!-- Flipping ID Card 4 -->
+    <div class="card-grid">
+      <div class="card-container" onclick="flipCard(this)">
+        <div class="card">
+          <!-- Front Side -->
+          <div class="card-front">
+            <img src="images\blake.png" alt="Profile Picture" class="profile-image">
+            <h2 class="name" style= "color: #ffffff";>Blarvax</h2>
+            <p class="info" style= "color: #ffffff">Number 1 Fan</p>
+          </div>
+
+          <!-- Back Side -->
+          <div class="card-back">
+            <h3>Number two fan of Narratron, losing only to Lara. Came the closest to discovering the truth, had to be silcened early, resulting in a faulty clone model.</h3>
+            
+          </div> <!-- End of card-back -->
+        </div> <!-- End of card -->
+      </div> <!-- End of card-container -->
+        <!-- Flipping ID Card 3 -->
+
+  <div class="card-grid">
+    <div class="card-container" onclick="flipCard(this)">
+      <div class="card">
+        <!-- Front Side -->
+        <div class="card-front">
+          <img src="images\alicia.png" alt="Profile Picture" class="profile-image">
+          <h2 class="name" style= "color: #ffffff";>Alicentize</h2>
+          <p class="info" style= "color: #ffffff">Starbucks IT Girl</p>
+        </div>
+
+        <!-- Back Side -->
+        <div class="card-back">
+          <h3>Not even 5 minutes to fully map out her mind.. Oof. 
+            IT girl, she is the main character in her own brain. 
+          </h3>
+          
+        </div> <!-- End of card-back -->
+      </div> <!-- End of card -->
+      
+    </div> <!-- End of card-container -->
+    </div> <!-- End of card-grid -->
+  </div>
+</div>
+
+  
+
+  <footer class="footer">
+    <div class="footer-content" style="color: #fff;">
+        <p>&copy; 2024 Narratron.gov   --  All rights reserved.</p>
+        <nav class="footer-nav">
+            <a href="privacy_policy.html">Privacy Policy</a>
+            <a href="terms_of_service.html">Terms of Service</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
